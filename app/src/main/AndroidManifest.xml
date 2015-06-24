@@ -18,8 +18,9 @@
         </activity>
 
         <activity
-            android:label="JTETIChat" >
             android:name=".MainActivity"
+            android:label="JTETIChat" >
+
             <intent-filter>
                 <action android:name="com.nurhabibah.jtetichat.MAINACTIVITY" />
 
