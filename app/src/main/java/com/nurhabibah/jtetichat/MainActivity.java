@@ -1,9 +1,11 @@
 package com.nurhabibah.jtetichat;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +14,16 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void clickContact(View view) {
+        Intent intent = new Intent(this, kontak_list.class);
+        startActivity(intent);
+    }
+
+    public void clickChat(View view) {
+        Intent intent = new Intent(this, chatlist.class);
+        startActivity(intent);
     }
 
 

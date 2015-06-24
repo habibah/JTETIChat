@@ -1,4 +1,3 @@
-<<<<<<< Original
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nurhabibah.jtetichat" >
@@ -33,19 +32,12 @@
             android:name=".chatlist"
             android:label="@string/title_activity_chatlist" >
         </activity>
-    </application>
 
-</manifest>
-
-=======
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <application>
-        <activity android:name="com.nurhabibah.jtetichat.kontak_list"
-            android:label="@string/title_activity_kontak_list"
-            >
+        <activity
+            android:name="com.nurhabibah.jtetichat.kontak_list"
+            android:label="@string/title_activity_kontak_list" >
         </activity>
     </application>
 
 </manifest>
->>>>>>> Added
+
