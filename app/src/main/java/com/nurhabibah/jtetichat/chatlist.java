@@ -145,11 +145,11 @@ public class chatlist extends MainActivity {
 
     //AppSessionStateCllback
 
-    @Override
+ //   @Override
     public void onStartSessionRecreation(){
 
     }
-    @Override
+ //   @Override
     public void onFinishSessionRecreation(final boolean success){
         runOnUiThread(new Runnable() {
             @Override
