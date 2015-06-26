@@ -16,8 +16,8 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-//import com.nurhabibah.jtetichat.QBEntityCallbackImpl;
-//import com.nurhabibah.jtetichat.model.QBDialog;
+//import com.quickblox.core.QBEntityCallbackImpl;
+//import com.quickblox.chat.model.QBDialog;
 //import com.nurhabibah.jtetichat.ChatService;
 //import com.nurhabibah.jtetichat.pushnotifications.Consts;
 //import com.nurhabibah.jtetichat.PlayServicesHelper;
